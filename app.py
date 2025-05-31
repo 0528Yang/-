@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # 配置DeepSeek API
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
-DEEPSEEK_API_KEY = "sk-51e26da14be24be4967e202ef70121d1"  # 请替换为实际API key
+DEEPSEEK_API_KEY = "key"  # 请替换为实际API key
 
 def get_herbal_recipes(user_input):
     """调用DeepSeek API获取药膳推荐"""
