@@ -32,7 +32,7 @@ app = Flask(__name__)
 
 ```python
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
-DEEPSEEK_API_KEY = "sk-51e26da14be24be4967e202ef70121d1"
+DEEPSEEK_API_KEY = "key"
 ```
 
 ### 解释：
